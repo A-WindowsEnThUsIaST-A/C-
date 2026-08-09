@@ -99,7 +99,7 @@ For an example of C minus code, and library file code, here:
 stdconsole.lib:
 # basic console commands
 {
-load stdcout[as 'std::cout'];
+load stdcout[as 'std::cout'];  
 load stdbleeper[as 'std::beep'];
 load stdinput[as 'std::input'];
 load stdrecall[as 'recall'];
